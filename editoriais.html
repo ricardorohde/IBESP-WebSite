@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>Teste de Layout com Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/comum.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- INICIO DA BARRA SUPERIOR DE NAVEGAÇÃO -->
+<nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo-branco.png"/></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Início<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Quem Somos <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">História da Igreja</a></li>
+                        <li><a href="#">Pacto das Igrejas Batistas</a></li>
+                        <li><a href="#">Princípios Batistas</a></li>
+                        <li><a href="#">Plano de Salvação</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Nossas Atividades<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Agenda</a></li>
+                        <li><a href="#">Ação Jovem</a></li>
+                        <li><a href="#">MBC</a></li>
+                        <li><a href="#">MCA</a></li>
+                        <li><a href="#">Escola Bíblica Dominical</a></li>
+                        <!-- <li role="separator" class="divider"></li> CRIA UM SEPARADOR NO DROPDOWN-->
+                        <li><a href="#">IDE</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Ministérios<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Administração</a></li>
+                        <li><a href="#">Comunhão</a></li>
+                        <li><a href="#">Ensino</a></li>
+                        <li><a href="#">Evangelismo</a></li>
+                        <li><a href="#">Serviço</a></li>
+                    </ul>
+                </li>
+                <li><a href="videos.html">Assista Nossos Cultos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- TÉRMINO DA BARRA SUPERIOR DE NAVEGAÇÃO -->
+<!-- INICIO DO CORPO -->
+<!-- Código para campo e botão que poderá ser usado para pesquisa
+<form action="" class="navbar-form ">
+    <input type="search" class="span2">
+    <button class="btn btn-inverse">Buscar</button>
+</form>
+-->
+<div class="espaco-livre"></div>
+    <div class="container">
+        <div class="row">
+            <aside class="col-sm-3 col-xs-push-0 col-lg-push-8">
+                <h2 class="uppercase">Destaques</h2>
+                <ul class="list-group-custom">
+                    <li class="list-group-item-custom">Um ano de prosperidade
+                        <p> por Pr. Wagner Kohler em 19/03/2017 </p>
+                    </li>
+                    <li class="list-group-item-custom">IDE, uma orde de Deus
+                        <p> por Célio de Marchi Cunha em 12/03/2017 </p>
+                    </li>
+                    <li class="list-group-item-custom">O futuro do Pais
+                        <p> por Pr. Eli Bento Corrêa em 05/03/2017 </p>
+                    </li>
+                </ul>
+            </aside>
+            <section class="col-sm-7 col-xs-pull-0 col-lg-pull-3 col-lg-offset-1">
+                <h3 class="uppercase">Quem a Bíblia diz que Jesus Cristo é?</h3>
+                <article class="col-md-12">
+                    <p>Em 16 de dezembro de 1739, George Whitefield pregou um sermão com base em Mateus 22.42 na Igreja da paróquia de Bruton, em Williamsburg, Virgínia, no qual fez à sua audiência a mesma pergunta que Jesus tinha feito aos seus ouvintes 1.700 anos antes: “Que pensais vós do Cristo?”. [...]</p>
+                    <p>Verdadeiro Deus de verdadeiro Deus – A evidência para a deidade completa do Senhor Jesus é encontrada ao longo de todo o Novo Testamento. Jesus é explicitamente chamado de “nosso grande Deus e Salvador” (Tito 2.13).</p>
+                    <p>A plenitude da divindade habita nele (Colossenses 1.19; 2.9). Ele possui títulos e nomes dados a Yahweh no Antigo Testamento (compare, por exemplo, Isaías 44.6 e Apocalipse 1.17). Ele é apresentado como o objeto de adoração (Hebreus 1.6) e é invocado em oração (Atos 7.59-60; 1 Coríntios 16.22; 2 Coríntios 12.8). Ele faz coisas que só Deus pode fazer, como criar o universo (João 1.3; Colossenses 1.16), perdoar pecados (Marcos 2.5-10; Colossenses 3.13) e julgar-nos no último dia (Atos 10.42; 17.31; 2 Coríntios 5.10). Ele possui atributos divinos, tais como onipresença (Hebreus 1.3; Efésios 4.10), onisciência (Apocalipse 2.23), onipotência (Mateus 28.18) e imutabilidade (Hebreus 13.8). A deidade completa de Cristo integra o evangelho. Qualquer outra posição perverte o Novo Testamento.</p>
+                    <p>Aquele que se encarnou - O Novo Testamento também testemunha outra verdade sobre a identidade de Cristo: Sua humanidade completa. Como diz o apóstolo Paulo, ele é “Cristo Jesus, homem” (1 Timóteo 2.5). Ele foi criado em circunstâncias humildes (Mateus 13.55). Ele experimentou as dores da fome (4.2). Ele conheceu o cansaço e a sede (João 4.6-7). Ele chorou lágrimas genuínas de tristeza (11.35). Contudo, enquanto a sua humanidade é como a nossa em todos esses aspectos, há um aspecto em que ela é totalmente diferente da nossa: é sem pecado. Ao olharmos para a vida de Cristo, não há um único incidente ao qual podemos apontar e dizer: “Veja, um pecado”. Negar a humanidade de Cristo é arruinar o evangelho (veja 1 João 4.1-3; 2 João 7- 9).</p>
+                    <p>Para a nossa salvação... crucificado - Depois de uma vida fazendo o bem, curando os doentes e pregando o evangelho, Jesus foi preso pelas autoridades judaicas e romanas. Aquele que é a Verdade e que amou a Deus de modo perfeito foi acusado de ser um blasfemador. Ele sofreu vergonhosamente nas mãos de guardas judeus e soldados romanos, sendo flagelado e zombado. Ele foi despojado de toda a sua roupa e morto sem nada para cobrir a sua nudez (João 19.23-24; Marcos 15.24). Sua morte foi a mais vergonhosa e dolorosa conhecida pelos romanos: crucificação (Hebreus 12.2; João 19.16-18). O Autor da vida, que ressuscitou dentre os mortos, foi sepultado num túmulo. O mais terrível de tudo, no entanto, foi o senso de abandono por Deus que inundou a alma de Jesus quando ele morreu (Mateus 27.46; Marcos 15.34), pois em sua morte ele suportou e experimentou pelos pecadores a ira infernal que eles merecem (1 Coríntios 15.3; 2 Coríntios 5.21; Hebreus 9.11-14, 28). Sua morte foi nada menos que uma morte vicária e propiciatória. Negar isso é negar o evangelho.</p>
+                    <p>Mas a morte não pôde prender Jesus no túmulo, pois nem a morte nem Satanás tinham qualquer reivindicação sobre ele (Salmos 16.10; Atos 2.24-31). Assim, Deus Pai, pelo Espírito Santo, ressuscitou Jesus dentre os mortos no terceiro dia (Mateus 28.6-7; Atos 2.32; Romanos 8.11), e ele foi visto em diversas ocasiões por seus apóstolos e testemunhas escolhidas (Atos 1.3-8; 1 Coríntios 15.4-8). Rejeitar a ressurreição corporal remove a nossa esperança de salvação.</p>
+                    <p>Esse é o evangelho que o Novo Testamento ensina, que Whitefield pregou, e que nós ainda afirmamos: Cristo, completamente Deus, tornou-se homem para a nossa salvação, morreu por nossos pecados e ressuscitou dentre os mortos. Creia e você será salvo.</p>
+                </article>
+            </section>
+        </div>
+    </div>
+
+<!-- TERMINO DO CORPO-->
+<footer class="panel-custom-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-1">
+                <img src="img/logo-branco.png">
+            </div>
+            <div class="col-sm-3">
+                <h2>Departamentos</h2>
+                Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo Lado Erquerdo
+            </div>
+            <div class="col-sm-3">
+                <h2>Contatos</h2>
+                Lado Direito Lado Direito Lado Direito Lado Direito Lado Direito Lado Direito Lado Direito Lado DireitoLado Direito Lado Direito Lado Direito
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- start: Copyright -->
+<div class="copyright">
+
+    <!-- start: Container -->
+    <p>
+        &copy; 2017, Igreja Batista Ebenézer.
+    </p>
+</div>
+<!-- end: Copyright -->
+<!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

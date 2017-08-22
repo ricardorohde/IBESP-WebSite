@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7b7b7fc9-f3fa-4358-95db-addc5b17ac44" name="Novo Site 3" url="http://novo.ibesp.org.br/">
+        <fileTransfer host="srv3.ibesp.org.br" port="22" rootFolder="/var/www/ibespobr/www_novo" accessType="SFTP" username="ibespobr" password="dfe3dfc8dfcfdf92df9edf9adf93">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="928993fe-cc79-48bd-838d-e2214caea8dc" name="Teste Novo Site" url="http://teste.ibesp.org.br">
+        <fileTransfer host="srv1.ibesp.org.br" port="22" rootFolder="/var/www/html/ibespobr/www_novo" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
